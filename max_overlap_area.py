@@ -154,8 +154,8 @@ bounds = [(X_min, X_max), (Y_min, Y_max), (theta_min, theta_max)]
 params_min = [X_min, Y_min, theta_min]
 params_max = [X_max, Y_max, theta_max]
 
-print(f(initial_guess))
+#print(f(initial_guess))
 
-#result = minimize(f, initial_guess, bounds=bounds)
-#print(result)
+result = minimize(f, initial_guess, bounds=bounds)
+print(result)
 
